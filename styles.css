@@ -53,7 +53,7 @@ button {
 }
 #home {
   border-radius: 999px;
-  background: var(--blue, #151557);
+  background: #151557;
   display: flex;
   padding: 12px 24px;
   justify-content: center;
@@ -62,27 +62,32 @@ button {
   color: #e2e2f5;
 }
 .container {
-  display: flex;    
+  display: flex;
 }
 #number {
   display: flex;
   align-items: center;
 }
 
-.container-right{
+.container-right {
   display: flex;
   justify-content: center;
   align-items: center;
+}
 
+.zero {
+  width: 290px;
 }
-#shadow {
-    width: 112px;
-    background-color: #d6d6f2;
-    box-shadow: 0px 0px 1916px 0px rgba(88, 11, 204, 0.7);
+.quatro {
+  width: 130px;
 }
-.zero{
-    width: 290px;
+
+#voltar:hover {
+  box-shadow: 0px 0px 14px 0px rgba(88, 11, 204, 0.7);
 }
-.quatro{
-width: 130px;
+.btn button:hover {
+  box-shadow: 0px 0px 14px 0px rgba(88, 11, 204, 0.7);
+transform: scale(1.14);
+  transition: all 120ms linear;
+  color: white;
 }
